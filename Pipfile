@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+quart = "*"
+telethon= "*"
+redis = "*"
+hypercorn = "*"
+python-telegram-bot = "*"
+python-telegram-bot-calendar = "*"
+requests = "*"
+pytest-asyncio = "*"
+
+[requires]
+python_version = "3.8"
